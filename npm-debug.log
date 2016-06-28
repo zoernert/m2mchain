@@ -1,0 +1,112 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'git://github.com/zoernert/m2mchain' ]
+2 info using npm@3.3.12
+3 info using node@v5.3.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData git://github.com/zoernert/m2mchain
+8 silly fetchOtherPackageData git://github.com/zoernert/m2mchain
+9 silly cache add args [ 'git://github.com/zoernert/m2mchain', null ]
+10 verbose cache add spec git://github.com/zoernert/m2mchain
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'git://github.com/zoernert/m2mchain',
+11 silly cache add   scope: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'git://github.com/zoernert/m2mchain',
+11 silly cache add   spec: 'git://github.com/zoernert/m2mchain.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:zoernert/m2mchain.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/zoernert/m2mchain.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/zoernert/m2mchain.git',
+11 silly cache add      gitUrl: 'git://github.com/zoernert/m2mchain.git',
+11 silly cache add      shortcut: 'github:zoernert/m2mchain',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/zoernert/m2mchain/master/package.json' } }
+12 verbose addRemoteGit caching git://github.com/zoernert/m2mchain
+13 verbose addRemoteGit git://github.com/zoernert/m2mchain.git is a repository hosted by github
+14 silly tryClone cloning git://github.com/zoernert/m2mchain.git via git://github.com/zoernert/m2mchain.git
+15 verbose tryClone git-github-com-zoernert-m2mchain-git-2bd55fb548df6f32953bcbba1518c1ce not in flight; caching
+16 info git [ 'clone',
+16 info git   '--template=C:\\Users\\tz2\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+16 info git   '--mirror',
+16 info git   'git://github.com/zoernert/m2mchain.git',
+16 info git   'C:\\Users\\tz2\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-zoernert-m2mchain-git-2bd55fb548df6f32953bcbba1518c1ce' ]
+17 verbose mirrorRemote git://github.com/zoernert/m2mchain.git git clone git://github.com/zoernert/m2mchain.git
+18 verbose setPermissions git://github.com/zoernert/m2mchain.git skipping chownr on Windows
+19 verbose resolveHead git://github.com/zoernert/m2mchain.git original treeish: master
+20 info git [ 'rev-list', '-n1', 'master' ]
+21 silly resolveHead git://github.com/zoernert/m2mchain.git resolved treeish: 123d481a4a93d40997c6fb3c334baaf7b30f1834
+22 verbose resolveHead git://github.com/zoernert/m2mchain.git resolved Git URL: git://github.com/zoernert/m2mchain.git#123d481a4a93d40997c6fb3c334baaf7b30f1834
+23 silly resolveHead Git working directory: C:\Users\tz2\AppData\Local\Temp\npm-9220-56d7f28d\git-cache-66aaa5531361d1d1b38e35f29b69aa26\123d481a4a93d40997c6fb3c334baaf7b30f1834
+24 info git [ 'clone',
+24 info git   'C:\\Users\\tz2\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-zoernert-m2mchain-git-2bd55fb548df6f32953bcbba1518c1ce',
+24 info git   'C:\\Users\\tz2\\AppData\\Local\\Temp\\npm-9220-56d7f28d\\git-cache-66aaa5531361d1d1b38e35f29b69aa26\\123d481a4a93d40997c6fb3c334baaf7b30f1834' ]
+25 verbose cloneResolved git://github.com/zoernert/m2mchain.git clone Cloning into 'C:\Users\tz2\AppData\Local\Temp\npm-9220-56d7f28d\git-cache-66aaa5531361d1d1b38e35f29b69aa26\123d481a4a93d40997c6fb3c334baaf7b30f1834'...
+25 verbose cloneResolved done.
+26 info git [ 'checkout', '123d481a4a93d40997c6fb3c334baaf7b30f1834' ]
+27 verbose checkoutTreeish git://github.com/zoernert/m2mchain.git checkout Note: checking out '123d481a4a93d40997c6fb3c334baaf7b30f1834'.
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+27 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+27 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+27 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish   git checkout -b <new-branch-name>
+27 verbose checkoutTreeish
+27 verbose checkoutTreeish HEAD is now at 123d481... Updated Readme
+28 verbose addLocalDirectory C:\Users\tz2\AppData\Roaming\npm-cache\m2mchain\0.0.2\package.tgz not in flight; packing
+29 verbose tar pack [ 'C:\\Users\\tz2\\AppData\\Roaming\\npm-cache\\m2mchain\\0.0.2\\package.tgz',
+29 verbose tar pack   'C:\\Users\\tz2\\AppData\\Local\\Temp\\npm-9220-56d7f28d\\git-cache-66aaa5531361d1d1b38e35f29b69aa26\\123d481a4a93d40997c6fb3c334baaf7b30f1834' ]
+30 verbose tarball C:\Users\tz2\AppData\Roaming\npm-cache\m2mchain\0.0.2\package.tgz
+31 verbose folder C:\Users\tz2\AppData\Local\Temp\npm-9220-56d7f28d\git-cache-66aaa5531361d1d1b38e35f29b69aa26\123d481a4a93d40997c6fb3c334baaf7b30f1834
+32 verbose addLocalTarball adding from inside cache C:\Users\tz2\AppData\Roaming\npm-cache\m2mchain\0.0.2\package.tgz
+33 verbose addRemoteGit data._from: git://github.com/zoernert/m2mchain.git
+34 verbose addRemoteGit data._resolved: git://github.com/zoernert/m2mchain.git#123d481a4a93d40997c6fb3c334baaf7b30f1834
+35 silly cache afterAdd m2mchain@0.0.2
+36 verbose afterAdd C:\Users\tz2\AppData\Roaming\npm-cache\m2mchain\0.0.2\package\package.json not in flight; writing
+37 verbose afterAdd C:\Users\tz2\AppData\Roaming\npm-cache\m2mchain\0.0.2\package\package.json written
+38 silly install normalizeTree
+39 silly loadCurrentTree Finishing
+40 silly loadIdealTree Starting
+41 silly install loadIdealTree
+42 silly cloneCurrentTree Starting
+43 silly install cloneCurrentTreeToIdealTree
+44 silly cloneCurrentTree Finishing
+45 silly loadShrinkwrap Starting
+46 silly install loadShrinkwrap
+47 silly loadShrinkwrap Finishing
+48 silly loadAllDepsIntoIdealTree Starting
+49 silly install loadAllDepsIntoIdealTree
+50 silly rollbackFailedOptional Starting
+51 silly rollbackFailedOptional Finishing
+52 silly runTopLevelLifecycles Starting
+53 silly runTopLevelLifecycles Finishing
+54 silly install printInstalled
+55 verbose stack Error: Refusing to install m2mchain as a dependency of itself
+55 verbose stack     at checkSelf (C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:40:14)
+55 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+55 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+55 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+55 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install\validate-args.js:15:5
+55 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:35
+55 verbose stack     at Array.forEach (native)
+55 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:52:11
+55 verbose stack     at Array.forEach (native)
+55 verbose stack     at asyncMap (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\async-map.js:51:8)
+56 verbose cwd E:\cloud\Dropbox\Development\ongit\m2mchain
+57 error Windows_NT 6.1.7601
+58 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "git://github.com/zoernert/m2mchain"
+59 error node v5.3.0
+60 error npm  v3.3.12
+61 error code ENOSELF
+62 error Refusing to install m2mchain as a dependency of itself
+63 error If you need help, you may report this error at:
+63 error     <https://github.com/npm/npm/issues>
+64 verbose exit [ 1, true ]

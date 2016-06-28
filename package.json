@@ -6,7 +6,7 @@
   "dependencies": {
     "bitmessage-node": "^0.1.5",
 	"http":"^0.0.0",
-	"nstore":"^0.0.0"
+	"nstore":"^0.5.2"
   },
   "devDependencies": {},
   "scripts": {    
