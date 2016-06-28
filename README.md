@@ -4,22 +4,22 @@ M2Mchain
 PoC to transfer sensor data like smart meter readings secure via bitmessage to a remote consumer. 
 
 ## Installation
-
+```
   npm install m2mchain --save
-
+```
 ## Requirement
 
 Start local Bitmessage Server with enabled API acccess
 
 ## Usage
-
+```javascript
   var chainprocess = new m2m.ChainProcess(JSON_RESP_URL,MILLI_SECONDS_BETWEEN_CALLS,ChainConfig);
   
   var chainserver = new m2m.LocalDPServer(ChainConfig);  // Starts Local HTTP Server 
-  
+```
   
 ## ChainConfig
-
+```javascript
 var ChainConfig = {
 	bm_host:"127.0.0.1", // you have to enable API in your keys.dat file
 	bm_port:8442,
@@ -31,7 +31,7 @@ var ChainConfig = {
 	db_log:'data/log.db',	// Logs last reading locally 
 	dp_server_port:8080,	// exposes last reading as JSON on this port 
 };
-
+```
 ## Contributing
 
 
