@@ -1,0 +1,25 @@
+{
+  "name": "m2mchain",
+  "version": "0.0.2",
+  "description": "Machine2Machine communication based on Blockchain (Ethereum) and Bitmessage backend",
+  "main": "m2mchain.js",
+  "dependencies": {
+    "bitmessage-node": "^0.1.5",
+	"http":"^0.0.0",
+	"nstore":"^0.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {    
+  },
+  "keywords": [
+    "m2m",
+    "ethereum",
+    "solidity",
+    "bitmessage",
+    "databroker",
+	"energydata",
+	"sensordata"
+  ],
+  "author": "Thorsten Zoerner <me@thorsten-zoerner.com> (https://blog.stromhaltig.de)",
+  "license": "CC0"
+}
